@@ -2,26 +2,26 @@
   {
     "id" : 1,
     "name": "Daniel Newman",
-    "email" :"danielnewman@gmail.com"
+    "username" :"@danielnewman"
   },
   {
     "id" : 2,
     "name": "Andre Istabaan",
-    "email" :"andreistebaan@gmail.com"
+    "username" :"@andreistebaan"
   },
   {
     "id" : 3,
     "name": "Rahul Chakraborty",
-    "email" :"chakrabortyrahul210@gmail.com"
+    "username" :"@chakrabortyrahul210"
   },
   {
     "id" : 4,
     "name": "Mike Tennyson",
-    "email" :"tennysonmike2645@gmail.com"
+    "username" :"@tennysonmike2645"
   },
   {
     "id" : 5,
     "name": "Kim Jung lei",
-    "email" :"kimjjunglei@hotmail.com"
+    "username" :"@kimjjunglei"
   }
  ]

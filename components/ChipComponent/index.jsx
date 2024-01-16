@@ -123,7 +123,7 @@ const ChipComponent = () => {
                   />
                   <div className="flex flex-col items-start">
                     <div className="text-[#222222] text-md">{item.name}</div>
-                    <div className="text-[#5E5E5E] text-base">{item.email}</div>
+                    <div className="text-[#5E5E5E] text-base">{item.username}</div>
                   </div>
                 </div>
               ))}
@@ -137,7 +137,7 @@ const ChipComponent = () => {
                 <div
                   key={index}
                   onClick={() => handleItemSelect(item.name)}
-                  className="flex items-center px-6 py-3 w-full rounded-sm cursor-pointer hover:bg-[#F7F7F7] gap-x-2"
+                  className="flex items-center md:px-6 px-3 md:py-3 py-2 w-full rounded-sm cursor-pointer hover:bg-[#F7F7F7] gap-x-2"
                 >
                   <Image
                     src={`/assets/list/${item.id}.png`}
@@ -147,7 +147,7 @@ const ChipComponent = () => {
                   />
                   <div className="flex flex-col items-start">
                     <div className="text-[#222222] text-md">{item.name}</div>
-                    <div className="text-[#5E5E5E] text-base">{item.email}</div>
+                    <div className="text-[#5E5E5E] text-base">{item.username}</div>
                   </div>
                 </div>
               ))}
